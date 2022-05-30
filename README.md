@@ -16,7 +16,7 @@ sudo yum install singularity
 2. Clone this repository.
 
 ```
-git clone git@github.com:BioDT/biodt-slides.git
+git clone git@github.com:BioDT/biodt-pandoc.git
 ```
 
 3. Download an Apptainer/Singularity container containing (almost) all the necessary magic. You could, for example, place it in `/usr/bin` (in which case you also need `sudo`).
