@@ -15,7 +15,7 @@ lang:  en
 - Text of a regular size,
   <small>text of a ***smaller*** size</small>.
 - **Bold text** without italics
-- [Link to tool used to produce these slides](https://github.com/csc-training/slide-template)
+- [Link to the BioDT GitHub organisation](https://github.com/BioDT)
 
 # Mathematics {.section}
 \
