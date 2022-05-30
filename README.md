@@ -47,4 +47,4 @@ While the template does a fairly good job at reproducing the BioDT Powerpoint te
 
 - Dates and slide numbers aren't shown, although one could display the date on the title slide.
 - Using `{.section}` is currently necessary to get the title positions right in regular slides.
-- Some general tweaking could still be done behind the scenes (e.g. the theme wants an image file called section-film.jpg, even if needed for the BioDT theme specifically).
+- Some general tweaking could still be done behind the scenes (e.g. the theme wants an image file called section-film.jpg, even if not needed for the BioDT theme specifically).
