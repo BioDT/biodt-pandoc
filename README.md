@@ -3,6 +3,8 @@
 This repository contains files and instructions for creating HTML slides in the style of the BioDT pptx template, using Pandoc and markdown.
 The contents are based on an [existing tool developed by CSC for creating HTML slides](https://github.com/csc-training/csc-env-eff/blob/master/contribute_guide/MD_into_html.md).
 
+For an example slide set, [see this link](https://biodt.github.io/biodt-pandoc/slides/example.html).
+
 # Instructions
 
 ## Getting started
