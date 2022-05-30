@@ -1,6 +1,6 @@
 # Pandoc tool for BioDT HTML slides
 
-This repository contains file and instructions for creating HTML slides in the style of the BioDT pptx template, using Pandoc and markdown.
+This repository contains files and instructions for creating HTML slides in the style of the BioDT pptx template, using Pandoc and markdown.
 The contents are based on an [existing tool developed by CSC for creating HTML slides](https://github.com/csc-training/csc-env-eff/blob/master/contribute_guide/MD_into_html.md).
 
 # Instructions
@@ -29,7 +29,7 @@ wget https://a3s.fi/pandocTool/pandoc-eurocc.sif
 
 You have two options:
 
-1. Working directly in the repository folder, in which case all is ready to go
+1. Working directly in the repository folder, in which case all is ready to go.
 2. Working in a slide folder of your own, in which case you should copy the contents of this repository to that folder.
 
 To create slides:
@@ -45,6 +45,6 @@ More information on this in a [separate instruction set](https://github.com/csc-
 
 While the template does a fairly good job at reproducing the BioDT Powerpoint template, some issues remain.
 
-- Dates and slide numbers aren't shown, although one could display the date on the title slide
-- Using `{.section}` is currently necessary to get the title positions right in regular slides
-- Some general tweaking could still be done behind the scenes (e.g. the theme wants an image file called section-film.jpg, even if needed for the BioDT theme specifically)
+- Dates and slide numbers aren't shown, although one could display the date on the title slide.
+- Using `{.section}` is currently necessary to get the title positions right in regular slides.
+- Some general tweaking could still be done behind the scenes (e.g. the theme wants an image file called section-film.jpg, even if needed for the BioDT theme specifically).
