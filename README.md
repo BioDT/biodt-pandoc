@@ -43,6 +43,21 @@ To create slides:
 The resulting HTML file can then be uploaded wherever you'd like, e.g. CSC Allas.
 More information on this in a [separate instruction set](https://github.com/csc-training/csc-env-eff/blob/master/contribute_guide/MD_into_html.md#publish-html-files-in-allas).
 
+# Need your slides in PDF?
+
+One easy way is to use [`decktape`](https://github.com/astefanutti/decktape):
+
+```
+singularity pull decktape.sif docker://astefanutti/decktape
+
+/path/to/decktape.sif \
+-s 2560x1440 \
+/path/to/slides.html \
+/path/to/output.pdf
+```
+Just replace the screen resolution with whatever you're using.
+If your slides are already hosted on the web, it is also possible to use the html link (e.g. `https://a3s.fi/.../slides.html`), instead of a local file.
+
 # Some development notes
 
 While the template does a fairly good job at reproducing the BioDT Powerpoint template, some issues remain.
